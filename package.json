@@ -1,0 +1,17 @@
+{
+  "name": "release-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.0.2",
+    "openai": "^4.33.0",
+    "string-strip-html": "^13.4.8"
+  }
+}
